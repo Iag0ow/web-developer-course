@@ -1,0 +1,59 @@
+       * {
+           padding: 0px;
+           margin: 0px;
+       }
+
+       .fundo {
+
+           background: url(fundo.png);
+           height: 230px;
+       }
+
+       .tamanho {
+           width: 920px;
+           margin: 0px auto;
+           background: url(detalhe-topo.png) no-repeat right top;
+           height: 180px;
+
+       }
+
+
+       .cabecalho {
+
+           padding-top: 30px;
+           display: inline-block;
+
+       }
+
+       li {
+           list-style-type: none;
+           display: inline;
+           background-color: rgb(184, 13, 13);
+           float: left;
+       }
+
+       .mov a {
+           padding: 15px 33px;
+           text-decoration: none;
+           display: block;
+           color: white;
+       }
+
+       .mov {
+           margin-top: 30px;
+           width: auto;
+
+       }
+
+       .mov a:hover {
+           color: rgb(39, 36, 36);
+       }
+
+       .mov li:hover {
+           background-color: rgb(212, 14, 14);
+       }
+
+       ul {
+           list-style: none;
+           float: left;
+       }

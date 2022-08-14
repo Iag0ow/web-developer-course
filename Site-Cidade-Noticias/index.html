@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #Central {
+            width: 920px;
+            height: auto;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+
+        #BlocoEsquerda {
+            width: 210px;
+            float: left;
+
+        }
+
+        #BlocoDireita {
+            width: 260px;
+            float: right;
+        }
+
+        #BlocoMeio {
+            width: 300px;
+            margin: 0 280px;
+
+
+        }
+
+        .background {
+            margin-bottom: 15px;
+            background: url(fundo-caixa.png);
+        }
+
+        .infos {
+            padding: 5px;
+            margin: 5px 5px;
+        }
+
+        .titulo {
+            color: white;
+            background-color: rgb(40, 73, 109);
+            padding: 5px 5px;
+            margin-bottom: 10px;
+        }
+
+        .texto {
+            background-color: white;
+            padding: 8px;
+        }
+
+        .texto a {
+            display: block;
+            padding: 10px;
+            color: black;
+            text-decoration: none;
+        }
+
+        .perso {
+            padding: 1px 3px;
+            background-color: rgb(224, 0, 54);
+            color: rgb(0, 0, 0);
+            width: 250px;
+            font-weight: 550;
+        }
+
+        .perso2 {
+            padding: 1px 3px;
+            background-color: rgb(224, 0, 54);
+            color: white;
+            width: 250px;
+            font-weight: 550;
+        }
+
+        #link {
+            color: rgb(224, 0, 54);
+            text-decoration: underline;
+            display: inline;
+        }
+
+        .texto p {
+            margin-bottom: 5px;
+        }
+
+        .infos img {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fundo">
+        <div class="tamanho">
+            <div class="cabecalho">
+                <div class="logo"><a href=""><img src="logo.png" alt=""></a></div>
+            </div>
+            <div>
+                <ul class="mov">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Brasil</a></li>
+                    <li><a href="">Internacional</a></li>
+                    <li><a href="">Economia</a></li>
+                    <li><a href="">Saúde</a></li>
+                    <li><a href="">Ciência</a></li>
+                    <li><a href="">Fotos</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div id="Central">
+        <div id="BlocoEsquerda">
+            <div class="background">
+                <div class="infos">
+                    <h3 class="titulo">Entrevistas</h3>
+                    <div class="texto">
+                        <a href="">José Almeida</a>
+                        <a href="">Felipe Silva</a>
+                        <a href="">Renato Rodrigues</a>
+                        <a href="">Abelardo Silveira</a>
+                        <a href="">Andre Carlos</a>
+                        <a href="">Márcio Mello</a>
+                        <a href="">João Pedro</a>
+                        <a href="">Fernando Weiss</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="background">
+                <div class="infos">
+                    <h3 class="titulo">News</h3>
+                    <div class="texto">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad a expedita corporis temporibus
+                        suscipit nihil fuga nesciunt repellendus praesentium eligendi laudantium, corrupti iure iste
+                        odit beatae aliquid tempora sint porro.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="BlocoDireita">
+            <div class="background">
+                <div class="infos">
+                    <h3 class="titulo">Destaque</h3>
+                    <div class="texto">
+                        <span class="perso2">NOVA LEGISLAÇÃO</span>
+                        <img width="230px" height="190px" src="taxi.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. !</p>
+                        <a id="link" href="">Leia Mais!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="background">
+                <div class="infos">
+                    <h3 class="titulo">Noticias recentes</h3>
+                    <div class="texto">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad a expedita corporis temporibus
+                        suscipit nihil fuga nesciunt repellendus praesentium eligendi laudantium, corrupti iure iste
+                        odit beatae aliquid tempora sint porro.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="BlocoMeio">
+            <div class="background">
+                <div class="infos">
+                    <h3 class="titulo">Última Entrevista</h3>
+                    <div class="texto">
+                        <span class="perso">ENTREVISTA COM FELIPE SILVA</span>
+                        <img width="265px" height="190px" src="doutor.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. !</p>
+                        <a id="link" href="">Leia Mais!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="background">
+                <div class="infos">
+                    <h3 class="titulo">Mundo</h3>
+                    <div class="texto">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad a expedita corporis temporibus
+                        suscipit nihil fuga nesciunt repellendus praesentium eligendi laudantium, corrupti iure iste
+                        odit beatae aliquid tempora sint porro.
+                    </div>
+                </div>
+            </div>
+
+</body>
+
+</html>
